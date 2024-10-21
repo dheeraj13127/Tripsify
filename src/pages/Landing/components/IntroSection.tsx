@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const IntroSection = () => {
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate("/plan");
+  };
   return (
     <div className="grid grid-cols-12 mt-24">
       <div className="col-span-12 max-w-screen-md mx-auto ">
@@ -32,7 +37,10 @@ const IntroSection = () => {
           data-aos-delay="600"
           className="flex justify-center mt-10 md:mt-14"
         >
-          <button className="px-4 py-2 rounded cursor-pointer bg-dark-pink text-sm md:text-base lg:text-lg font-semibold font-opensans text-white hover:scale-95 duration-150">
+          <button
+            onClick={handleNavigate}
+            className="px-4 py-2 rounded cursor-pointer bg-dark-pink text-sm md:text-base lg:text-lg font-semibold font-opensans text-white hover:scale-95 duration-150"
+          >
             Plan yours now
           </button>
         </div>

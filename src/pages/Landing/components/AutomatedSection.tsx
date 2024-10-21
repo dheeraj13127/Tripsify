@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Parallax } from "react-scroll-parallax";
-import gemini from "../../../assets/gemini.png";
-import react from "../../../assets/react.png";
-import tailwind from "../../../assets/tailwind.png";
-import typescript from "../../../assets/typescript.png";
+import gemini from "../../../assets/gemini-new.png";
+import react from "../../../assets/react-new.png";
+import tailwind from "../../../assets/tailwind-new.png";
+import typescript from "../../../assets/typescript-new.png";
 import { AutomatedImagesDataType } from "../../../interfaces/Interfaces";
 const AutomatedSection = () => {
   const [parallaxPositiveSize, setParallaxPositiveSize] = useState<number>(
@@ -73,7 +73,7 @@ const AutomatedSection = () => {
               at.id % 2 === 0 ? parallaxNegativeSize : parallaxPositiveSize
             }
           >
-            <div className="bg-gray-200 border border-gray-200 border-opacity-50 flex justify-center rounded-lg shadow-xl">
+            <div className=" flex justify-center rounded-lg">
               <img src={at.url} alt="automated-image" className="w-3/4" />
             </div>
           </Parallax>
