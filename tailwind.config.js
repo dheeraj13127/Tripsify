@@ -11,6 +11,8 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         pacifico: ["Pacifico", "cursive"],
         roboto: ["Roboto", "sans-serif"],
+        bree: ["Bree Serif", "serif"],
+        opensans: ["Open Sans", "sans-serif"],
       },
     },
   },
