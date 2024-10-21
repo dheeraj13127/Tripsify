@@ -1,9 +1,16 @@
 import React from "react";
-
+import IntroSection from "./components/IntroSection";
+import AutomatedSection from "./components/AutomatedSection";
+import { ParallaxProvider } from "react-scroll-parallax";
+import HowItWorksSection from "./components/HowItWorksSection";
 const Landing = () => {
   return (
-    <div>
-      <div>Landing</div>
+    <div className=" px-4 py-10 overflow-hidden">
+      <ParallaxProvider>
+        <IntroSection />
+        <AutomatedSection />
+        <HowItWorksSection />
+      </ParallaxProvider>
     </div>
   );
 };

@@ -40,7 +40,7 @@ const Navbar = () => {
       <nav className="bg-white border-gray-200 border-b">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center space-x-1 ">
-            <span className="font-bree text-dark-pink text-3xl font-semibold whitespace-nowrap">
+            <span className="font-bree text-dark-pink text-2xl sm:text-3xl font-semibold whitespace-nowrap">
               Tripsify
             </span>
           </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
             onClick={() => setShowNav(!showNav)}
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden cursor-pointer focus:bg-gray-200"
           >
-            <GiHamburgerMenu size={24} color="black" />
+            <GiHamburgerMenu size={20} color="black" />
           </button>
           <div
             className={` ${
@@ -68,7 +68,7 @@ const Navbar = () => {
                       nit.name === activeTab
                         ? "shadow-md border border-gray-400"
                         : "border border-gray-50"
-                    } hover:scale-90 duration-100  font-poppins`}
+                    } md:hover:scale-90 duration-100  font-poppins`}
                   >
                     {nit.name}
                   </div>
