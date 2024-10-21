@@ -1,9 +1,9 @@
 import React from "react";
 import { HowItWorksImagesDataType } from "../../../interfaces/Interfaces";
-import destination from "../../../assets/choose-destination-big.png";
-import duration from "../../../assets/choose-duration-big.png";
-import additionalInfo from "../../../assets/additional-info-big.png";
-import generatesData from "../../../assets/generates-data-big.png";
+import destination from "../../../assets/choose-destination.png";
+import duration from "../../../assets/choose-duration.png";
+import additionalInfo from "../../../assets/additional-info.png";
+import generatesData from "../../../assets/generates-data.png";
 const HowItWorksSection = () => {
   const howItWorksImagesData: HowItWorksImagesDataType[] = [
     {
@@ -58,12 +58,12 @@ const HowItWorksSection = () => {
                 className="p-3 bg-gray-400 shadow-xl rounded-lg bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 border border-gray-100
 "
               >
-                <p className="text-gray-500 font-poppins font-semibold text-lg mt-2">
+                <p className="text-gray-500 font-poppins font-semibold lg:text-lg mt-2">
                   {hw.info}
                 </p>
                 <div className="flex justify-center">
                   <img
-                    className="w-[] mt-4"
+                    className=" mt-4"
                     src={hw.url}
                     alt="how-it-works-image"
                   />
