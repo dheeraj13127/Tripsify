@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Parallax } from "react-scroll-parallax";
 import gemini from "../../../assets/gemini-new.png";
 import react from "../../../assets/react-new.png";

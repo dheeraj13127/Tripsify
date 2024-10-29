@@ -1,4 +1,3 @@
-import React from "react";
 import IntroSection from "./components/IntroSection";
 import AutomatedSection from "./components/AutomatedSection";
 import { ParallaxProvider } from "react-scroll-parallax";

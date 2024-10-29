@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../interfaces/Interfaces";
 import ReactMarkdown from "react-markdown";

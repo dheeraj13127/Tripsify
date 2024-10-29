@@ -1,4 +1,3 @@
-import React from "react";
 import { BsEmojiFrown } from "react-icons/bs";
 const PageNotFound = () => {
   return (

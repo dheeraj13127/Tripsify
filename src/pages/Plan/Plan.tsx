@@ -1,4 +1,3 @@
-import React from "react";
 import PlanForm from "./PlanForm/PlanForm";
 import { useSelector } from "react-redux";
 import { RootState } from "../../interfaces/Interfaces";
