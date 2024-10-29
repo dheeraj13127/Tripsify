@@ -22,5 +22,5 @@ An AI-powered itinerary planner that creates customized travel schedules, organi
 > Gemini AI
 
 ```
-Made with ❤️ by Dheeraj
+Made with :heart: by Dheeraj
 ```
