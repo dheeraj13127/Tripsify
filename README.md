@@ -5,6 +5,9 @@
 ## Built using :
 
 > React
+
 > Tailwind CSS
+
 > Typescript
+
 > Gemini AI
