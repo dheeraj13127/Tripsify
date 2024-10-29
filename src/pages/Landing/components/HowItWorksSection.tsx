@@ -1,9 +1,8 @@
-import React from "react";
 import { HowItWorksImagesDataType } from "../../../interfaces/Interfaces";
-import destination from "../../../assets/choose-destination.png";
-import duration from "../../../assets/choose-duration.png";
-import additionalInfo from "../../../assets/additional-info.png";
-import generatesData from "../../../assets/generates-data.png";
+import destination from "../../../assets/choose_destination.png";
+import duration from "../../../assets/choose_duration.png";
+import additionalInfo from "../../../assets/additional_info.png";
+import generatesData from "../../../assets/generates_data.png";
 const HowItWorksSection = () => {
   const howItWorksImagesData: HowItWorksImagesDataType[] = [
     {
@@ -19,12 +18,12 @@ const HowItWorksSection = () => {
     {
       id: 3,
       url: additionalInfo,
-      info: "Step 3: Provide some additional information if needed",
+      info: "Step 3: Provide some additional information",
     },
     {
       id: 4,
       url: generatesData,
-      info: "Thats it! Now the AI will generate your itinerary",
+      info: "Thats it ! Tripsify will now generate your itinerary",
     },
   ];
   return (
@@ -55,10 +54,10 @@ const HowItWorksSection = () => {
           >
             <div className="bg-white shadow-xl p-2 rounded-lg">
               <div
-                className="p-3 bg-gray-400 shadow-xl rounded-lg bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 border border-gray-100
+                className="p-3 bg-gray-300 shadow-xl rounded-lg bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 border border-gray-100
 "
               >
-                <p className="text-gray-500 font-poppins font-semibold lg:text-lg mt-2">
+                <p className="text-gray-700 font-poppins font-semibold lg:text-lg mt-2">
                   {hw.info}
                 </p>
                 <div className="flex justify-center">

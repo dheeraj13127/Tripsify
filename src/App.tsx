@@ -4,6 +4,7 @@ import Navbar from "./pages/Navbar/Navbar";
 import Footer from "./pages/Footer/Footer";
 import Plan from "./pages/Plan/Plan";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
+import { Toaster } from "react-hot-toast";
 const App = () => {
   return (
     <div className="bg-gray-50">
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 };
