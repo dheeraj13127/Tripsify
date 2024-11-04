@@ -5,7 +5,7 @@ const Footer = () => {
         <p className=" font-poppins text-center">
           Made with ❤️ by{" "}
           <a
-            href="https://dheerajcodes.vercel.app"
+            href="https://dheeraj-develops.vercel.app"
             target="_blank"
             rel="noopeneer"
             className=" font-semibold cursor-pointer"
